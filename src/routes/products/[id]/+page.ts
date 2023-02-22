@@ -6,7 +6,7 @@ export const load: PageLoad = ({ params }) => {
 	const { id } = params;
 
 	if (/\D/.test(id)) {
-		throw error(404, { message: 'hey', id: id });
+		throw error(404, { message: 'hey', id, code: 'NOT_FOUND' });
 	}
 
 	return {
