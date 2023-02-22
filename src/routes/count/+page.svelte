@@ -1,8 +1,8 @@
 <script>
-	let count = 0;
-	const increment = () => {
-		count++;
-	};
+  let count = 0;
+  const increment = () => {
+    count++;
+  };
 </script>
 
 <title>Counter</title>
